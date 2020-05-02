@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "AppBethel"
+    }
+  },
+  "defaultProject": "AppBethel",
+  "cli": {
+    "analytics": "cb1a5105-ea84-4fd1-88e2-62747a829be0"
+  }
 }
