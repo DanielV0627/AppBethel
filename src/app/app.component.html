@@ -1,2 +1,22 @@
- <app-company></app-company>
-<router-outlet></router-outlet>
+<!-- <p-megaMenu [model]="items"></p-megaMenu> -->
+<h3>Sample Layout</h3>
+<div class="p-grid sample-layout">
+    <div class="p-col-12 p-md-2" >
+        <p-slideMenu class="ui-slidemenu-content ui-menuitem-text" [model]="items"   ></p-slideMenu>  
+        
+        <!-- <p-menu [model]="items"></p-menu> -->
+
+    </div>
+    <div class="p-col-12 p-md-10  p-col-nogutter">
+        <div class="p-col-12 p-col-nogutter">
+            <router-outlet></router-outlet>
+
+        </div>
+       
+    </div>
+    <div class="p-col-12">
+        Footer
+    </div>
+</div>
+
+
