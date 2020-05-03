@@ -9,13 +9,15 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MegaMenuModule} from 'primeng/megamenu';
 import {SlideMenuModule} from 'primeng/slidemenu';
 import {MenuModule} from 'primeng/menu';
+import { ProviderComponent } from './component/provider/provider.component';
   
 
 @NgModule({
   declarations: [
     AppComponent,
     CompanyComponent,
-    ProductComponent, 
+    ProductComponent,
+    ProviderComponent, 
   ],
   imports: [
     BrowserModule,
