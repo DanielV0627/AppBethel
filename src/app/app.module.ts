@@ -10,14 +10,18 @@ import {MegaMenuModule} from 'primeng/megamenu';
 import {SlideMenuModule} from 'primeng/slidemenu';
 import {MenuModule} from 'primeng/menu';
 import { ProviderComponent } from './component/provider/provider.component';
-  
+import { CategoryComponent } from './component/category/category.component';
+import { CategoryService } from './sevices/category.service';
+import { HttpClientModule } from '@angular/common/http';
+import { TableModule } from 'primeng/table';
 
 @NgModule({
   declarations: [
     AppComponent,
     CompanyComponent,
     ProductComponent,
-    ProviderComponent, 
+    ProviderComponent,
+    CategoryComponent, 
   ],
   imports: [
     BrowserModule,
@@ -25,9 +29,11 @@ import { ProviderComponent } from './component/provider/provider.component';
     BrowserAnimationsModule,
     MegaMenuModule,
     SlideMenuModule,
-    MenuModule
+    MenuModule,
+    HttpClientModule,
+    TableModule
   ],
-  providers: [],
+  providers: [CategoryService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -13,25 +13,12 @@ export class AppComponent {
   ngOnInit() {
       this.items = [
           {label: 'Compañia', icon: 'pi pi-fw pi-plus', routerLink:['\company'] },
-          {label: 'Open', icon: 'pi pi-fw pi-download',routerLink:['\product'] },
+          {label: 'Open', icon: 'pi pi-fw pi-download',routerLink:['\product'] }, 
+          {label: 'Category', icon: 'pi pi-fw pi-download',routerLink:['\Category'] },
           {label: 'Undo', icon: 'pi pi-fw pi-refresh'},
           {label: 'New', icon: 'pi pi-fw pi-plus'},
           {label: 'Open', icon: 'pi pi-fw pi-download'},
-          {label: 'Undo', icon: 'pi pi-fw pi-refresh'},
-          {label: 'New', icon: 'pi pi-fw pi-plus'},
-          {label: 'Open', icon: 'pi pi-fw pi-download'},
-          {label: 'Undo', icon: 'pi pi-fw pi-refresh'},
-          {label: 'New', icon: 'pi pi-fw pi-plus'},
-          {label: 'Open', icon: 'pi pi-fw pi-download'},
-          {label: 'Undo', icon: 'pi pi-fw pi-refresh'},
-          {label: 'Open', icon: 'pi pi-fw pi-download'},
-          {label: 'Undo', icon: 'pi pi-fw pi-refresh'},
-          {label: 'New', icon: 'pi pi-fw pi-plus'},
-          {label: 'Open', icon: 'pi pi-fw pi-download'},
-            {label: 'Open', icon: 'pi pi-fw pi-download'},
-          {label: 'Undo', icon: 'pi pi-fw pi-refresh'},
-          {label: 'New', icon: 'pi pi-fw pi-plus'},
-          {label: 'Open', icon: 'pi pi-fw pi-download'}
+    
       ];
   }
 }
